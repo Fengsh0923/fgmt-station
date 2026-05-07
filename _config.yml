@@ -1,0 +1,13 @@
+title: F哥情报站
+description: 鳌虾每日 morning briefing 公开化 · 日更
+theme: jekyll-theme-minimal
+markdown: kramdown
+plugins:
+  - jekyll-feed
+permalink: /:year/:month/:day/:title:output_ext
+
+defaults:
+  - scope:
+      path: "posts"
+    values:
+      layout: post
